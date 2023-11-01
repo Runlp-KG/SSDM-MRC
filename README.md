@@ -1,6 +1,6 @@
-# 2022 ACL "Learning Disentangled Semantic Representations for Zero-Shot Cross-Lingual Transfer in Multilingual Machine Reading Comprehension"
+## 2022 ACL "Learning Disentangled Semantic Representations for Zero-Shot Cross-Lingual Transfer in Multilingual Machine Reading Comprehension"
 
-### Introduction
+## Introduction
 
 ---
 The multilingual MRC model is based on multilingual Pre-trained Language Models (PLMs) equipped with a Siamese Semantic Disentanglement Model (SSDM) 
@@ -16,7 +16,7 @@ Track the latest work, we are still optimizing and adjusting, thanks to the foll
 
 [HuggingFace](https://huggingface.co/)
 
-### Environment
+## Environment
 
 ---
 - GPU       Quadro RTX 6000  24G
@@ -24,7 +24,7 @@ Track the latest work, we are still optimizing and adjusting, thanks to the foll
 - torch     1.7.1
 - cuda      11.0
 
-### Usage
+## Usage
 
 ---
 1、Set the configurations of SSDM in ```config.py```，mainly to set output file, choice the type of PLMs and syntax loss (POS or STL).
@@ -38,7 +38,7 @@ python main.py
 ```
 Moreover, SSDM and MRC can be trained separately, depending on the user's choice.
 
-### Cite
+## Cite
 
 ---
 @inproceedings{DBLP:conf/acl/WuWZXCZ022,
