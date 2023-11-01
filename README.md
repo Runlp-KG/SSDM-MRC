@@ -1,6 +1,4 @@
-# SSDM_MRC
----
-2022 ACL "Learning Disentangled Semantic Representations for Zero-Shot Cross-Lingual Transfer in Multilingual Machine Reading Comprehension"
+# 2022 ACL "Learning Disentangled Semantic Representations for Zero-Shot Cross-Lingual Transfer in Multilingual Machine Reading Comprehension"
 
 ### Introduction
 
@@ -39,3 +37,26 @@ Track the latest work, we are still optimizing and adjusting, thanks to the foll
 python main.py
 ```
 Moreover, SSDM and MRC can be trained separately, depending on the user's choice.
+
+### Cite
+
+---
+@inproceedings{DBLP:conf/acl/WuWZXCZ022,
+  author       = {Linjuan Wu and
+                  Shaojuan Wu and
+                  Xiaowang Zhang and
+                  Deyi Xiong and
+                  Shizhan Chen and
+                  Zhiqiang Zhuang and
+                  Zhiyong Feng},<br>
+  title        = {Learning Disentangled Semantic Representations for Zero-Shot Cross-Lingual
+                  Transfer in Multilingual Machine Reading Comprehension},<br>
+  booktitle    = {Proceedings of the 60th Annual Meeting of the Association for Computational
+                  Linguistics (Volume 1: Long Papers)(ACL)},<br>
+  pages        = {991--1000},<br>
+  publisher    = {Association for Computational Linguistics},<br>
+  url          = {https://doi.org/10.18653/v1/2022.acl-long.70},<br>
+  doi          = {10.18653/V1/2022.ACL-LONG.70},<br>
+  biburl       = {https://dblp.org/rec/conf/acl/WuWZXCZ022.bib},<br>
+  bibsource    = {dblp computer science bibliography, https://dblp.org}<br>
+}
