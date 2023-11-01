@@ -2,7 +2,6 @@
 
 ## Introduction
 
----
 The multilingual MRC model is based on multilingual Pre-trained Language Models (PLMs) equipped with a Siamese Semantic Disentanglement Model (SSDM) 
 to explicitly transfer only semantic knowledge to the target language.
 
@@ -18,7 +17,6 @@ Track the latest work, we are still optimizing and adjusting, thanks to the foll
 
 ## Environment
 
----
 - GPU       Quadro RTX 6000  24G
 - python    3.7.9
 - torch     1.7.1
@@ -26,7 +24,6 @@ Track the latest work, we are still optimizing and adjusting, thanks to the foll
 
 ## Usage
 
----
 1、Set the configurations of SSDM in ```config.py```，mainly to set output file, choice the type of PLMs and syntax loss (POS or STL).
 
 2、Adjust number of epochs, learning rate, etc. in ```mrc_experiments.conf```
@@ -40,7 +37,6 @@ Moreover, SSDM and MRC can be trained separately, depending on the user's choice
 
 ## Cite
 
----
 @inproceedings{DBLP:conf/acl/WuWZXCZ022,<br>
   author       = {Linjuan Wu and
                   Shaojuan Wu and
