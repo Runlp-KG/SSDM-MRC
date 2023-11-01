@@ -41,7 +41,7 @@ Moreover, SSDM and MRC can be trained separately, depending on the user's choice
 ## Cite
 
 ---
-@inproceedings{DBLP:conf/acl/WuWZXCZ022,
+@inproceedings{DBLP:conf/acl/WuWZXCZ022,<br>
   author       = {Linjuan Wu and
                   Shaojuan Wu and
                   Xiaowang Zhang and
